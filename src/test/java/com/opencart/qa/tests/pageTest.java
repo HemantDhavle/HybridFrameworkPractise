@@ -10,6 +10,7 @@ public class pageTest extends baseTest
 	String username  = prop.getProperty("un");
 	String password  = prop.getProperty("pw");
 	lp.doLogin(username, password);	
+	System.out.println("Hemant");
 	
 	}
 
